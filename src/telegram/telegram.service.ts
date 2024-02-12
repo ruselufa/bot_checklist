@@ -17,7 +17,7 @@ export class TelegramService {
 	private bot: Telegraf;
 
 	constructor(private readonly errorLogger: ErrorLoggerService) {
-		this.bot = new Telegraf('6883551736:AAEwNnGR-hGG9HYQ2fsJv80sC6oTJZONuk4');
+		this.bot = new Telegraf('6594921942:AAGkRhlqIsyEtCjXtOh-73BNVvzB_SOBQSI');
 
 		this.bot.start(async (ctx) => {
 			await ctx.reply(
